@@ -1,6 +1,6 @@
 body {
   height: 125vh;
-  background-image: url('https://cdn.pixabay.com/photo/2022/10/03/21/47/fog-7496901_1280.jpg');
+  background-image: url('C:/Users/tyrat/atkin0.github.io/fog.jpg');
   background-size: cover;
   font-family: sans-serif;
   
@@ -10,7 +10,7 @@ main {
   color: white;
   margin-top: 80px; 
   padding-top: 20px;
-  margin-left: 50px;
+  margin-left: 75px;
 }
 
 .navbar {
@@ -38,10 +38,46 @@ main {
 .navbar .nav-items a {
   color: white;
   text-decoration: none;
+  text-align: right;
+}
+
+.navbar #logo a {
+  color: white;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-right: 20px;
 }
 
 .heading {
   text-align: center;
+  text-shadow: 1px 1px rgb(150, 150, 150);
+}
+
+.about {
+  text-align: center
+}
+
+.project-name {
+  text-decoration: underline;
+}
+
+#mywebpic {
+  border-style: groove;
+  border-color: white;
+  height: 350px;
+}
+
+.learn-more a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.learn-more a:hover {
+  text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
 footer {
@@ -53,6 +89,6 @@ footer {
   bottom: 0;
   width: 100%;
   padding: 3px 0;
-  box-shadow: 15px 0 0 0 black;
+  box-shadow: 0 0 25px 0 black;
   justify-content: center;
 }

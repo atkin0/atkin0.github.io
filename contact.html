@@ -2,21 +2,21 @@
 <html>
     <head>
         <title>Atkin's Contact</title>
+        <link rel="stylesheet" href="styles.min.css" />
     </head>
     <body>
-        <nav>
-            <h1 class = "logo"></h1>
-            <a href="index.html">Atkin's Website</a>
+        <nav class="navbar">
             <ul class="nav-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li id="logo"><a href="index.html">Atkin's Website</a></li>
+                <li class="nav-items"><a href="index.html">Home</a></li>
+                <li class="nav-items"><a href="blog.html">Blog</a></li>
+                <li class="nav-items"><a href="portfolio.html">Portfolio</a></li>
+                <li class="nav-items"><a href="resume.html">Resume</a></li>
+                <li class="nav-items"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <main>
-            <h1>Contact</h1>
+            <h1 class="heading">Contact</h1>
             <form id = "contact-form">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" placeholder="Name" required>

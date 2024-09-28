@@ -80,6 +80,20 @@ main {
   text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
+label {
+  font-weight: bold;
+}
+
+#comments {
+  width: 250px;
+  height: 150px;
+}
+
+#submit {
+  font-weight: bold;
+  border-radius: 8px;
+}
+
 footer {
   color: white;
   background: black;

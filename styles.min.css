@@ -105,6 +105,10 @@ label {
   border-radius: 8px;
 }
 
+.section-title {
+  text-decoration: underline;
+}
+
 footer {
   color: white;
   background: black;

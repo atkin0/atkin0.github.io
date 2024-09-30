@@ -13,6 +13,14 @@ main {
   margin-left: 75px;
 }
 
+/* All Pages */
+
+.heading {
+  text-align: center;
+  text-shadow: 1px 1px rgb(150, 150, 150);
+}
+
+/* Navbar */
 .navbar {
   background-color: black;
   position: fixed;
@@ -24,7 +32,6 @@ main {
   align-items: center;
   box-shadow: 0 0 25px 0 black;
 }
-
 
 .navbar * {
   display: inline;
@@ -61,15 +68,13 @@ main {
   text-decoration: none;
 }
 
-.heading {
-  text-align: center;
-  text-shadow: 1px 1px rgb(150, 150, 150);
-}
 
+/* Index Page */
 .about {
   text-align: center
 }
 
+/* Portfolio Sections */
 .project-name {
   text-decoration: underline;
 }
@@ -91,6 +96,7 @@ main {
   text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
+/* Contact page */
 label {
   font-weight: bold;
 }
@@ -105,10 +111,12 @@ label {
   border-radius: 8px;
 }
 
+/* Resume */
 .section-title {
   text-decoration: underline;
 }
 
+/* Footer */
 footer {
   color: white;
   background: black;
